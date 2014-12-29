@@ -1,6 +1,5 @@
-<h1><%= Spree.t("static_content.static_pages") %></h1>
-<%= render "spree/shared/error_messages", :target => @page %>
-
-<hr>
+<% content_for :page_title do %>
+  <%= Spree.t(:new_page, scope: :static_content) %>
+<% end %>
 
 <%= render 'form', resource: @page %>
