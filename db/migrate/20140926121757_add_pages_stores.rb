@@ -3,7 +3,7 @@ class AddPagesStores < ActiveRecord::Migration
     create_table :spree_pages_stores, id: false do |t|
       t.integer :store_id
       t.integer :page_id
-      t.timestamps
+      t.timestamps null: false
     end
 
     add_index :spree_pages_stores, :store_id
