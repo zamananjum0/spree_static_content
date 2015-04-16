@@ -1,5 +1,5 @@
 <% content_for :page_title do %>
-  <%= Spree::Page.model_name.human(count: :many) %>
+  <%= plural_resource_name(Spree::Page) %>
 <% end %>
 
 <% content_for :page_actions do %>
