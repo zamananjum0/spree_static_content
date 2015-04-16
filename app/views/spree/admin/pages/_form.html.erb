@@ -1,5 +1,5 @@
 <% content_for :page_actions do %>
-  <%= button_link_to Spree.t(:back_to_resource_list, resource: Spree::Page.model_name.human(count: :many)), spree.admin_pages_path, icon: 'arrow-left', class: 'btn-primary' %>
+  <%= button_link_to Spree.t(:back_to_resource_list, resource: plural_resource_name(Spree::Page)), spree.admin_pages_path, icon: 'arrow-left', class: 'btn-primary' %>
 <% end %>
 
 <%= form_for [:admin, resource] do |f| %>
@@ -76,7 +76,7 @@
       </div>
 
       <div class="form-group">
-        <%= f.label :stores, Spree::Store.model_name.human(count: :many) %>
+        <%= f.label :stores, plural_resource_name(Spree::Store) %>
         <% Spree::Store.all.each do |store| %>
           <div class="checkbox">
             <%= f.label store.name.downcase.to_sym do %>
