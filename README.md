@@ -1,13 +1,15 @@
 # Spree Static Content
 
-[![Build Status](https://api.travis-ci.org/spree/spree_static_content.png?branch=master)](https://travis-ci.org/spree/spree_static_content)
-[![Code Climate](https://codeclimate.com/github/spree/spree_static_content.png)](https://codeclimate.com/github/spree/spree_static_content)
+[![Build Status](https://travis-ci.org/spree-contrib/spree_static_content.svg?branch=3-0-stable)](https://travis-ci.org/spree-contrib/spree_static_content)
+[![Code Climate](https://codeclimate.com/github/spree-contrib/spree_static_content/badges/gpa.svg)](https://codeclimate.com/github/spree-contrib/spree_static_content)
 
 Good, clean content management of pages for Spree. You can use this to:
 
 - Add and manage static pages such as an 'About' page.
 - Show a static page instead of existing dynamic pages such as the home page,
   products pages, and taxon pages.
+
+---
 
 ## HowTo
 
@@ -40,12 +42,14 @@ position setting alters the order in which they appear.
 
 Finally, toggle the visibility using the 'Visible' checkbox. If it is unchecked, the page will not be available.
 
+---
+
 ## Basic Installation
 
 Add to your `Gemfile`:
 
 ```ruby
-gem 'spree_static_content', github: 'spree/spree_static_content', branch: 'master'
+gem 'spree_static_content', github: 'spree/spree_static_content', branch: '3-0-stable'
 ```
 
 Run:
@@ -55,7 +59,7 @@ Run:
 
 That's all!
 
-**NOTE: Check [Versionfile][1] for corresponding gem `branch` for your Spree version.**
+---
 
 ## Contributing
 
@@ -84,9 +88,10 @@ Starting point:
 * Ensure specs pass by running `bundle exec rspec spec`
 * Submit your pull request
 
-Copyright (c) 2014 [Peter Berkenbosch][4] and [contributors][5], released under the [New BSD License][6]
+---
 
-[1]: https://github.com/spree/spree_static_content/blob/master/Versionfile
+Copyright (c) 2015 [Peter Berkenbosch][4] and [contributors][5], released under the [New BSD License][6]
+
 [2]: http://www.fsf.org/licensing/essays/free-sw.html
 [3]: https://github.com/spree/spree_static_content/issues
 [4]: https://github.com/peterberkenbosch
