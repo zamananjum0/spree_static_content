@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'poltergeist', '~> 1.5.0'
   s.add_development_dependency 'simplecov', '~> 0.9.0'
   s.add_development_dependency 'coffee-rails', '~> 4.0.0'
-  s.add_development_dependency 'sass-rails', '~> 4.0.0'
+  s.add_development_dependency 'sass-rails', '~> 5.0.0'
   s.add_development_dependency 'guard-rspec', '>= 4.2.0'
   s.add_development_dependency 'pry-rails', '>= 0.3.0'
   s.add_development_dependency 'rubocop', '>= 0.24.1'
