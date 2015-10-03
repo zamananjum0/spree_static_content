@@ -70,8 +70,8 @@ See corresponding [guidelines][2]
 
 Copyright (c) 2008-2015 [Peter Berkenbosch][4] and [contributors][5], released under the [New BSD License][6]
 
-[2]: https://github.com/spree-contrib/spree_static_content/blob/master/CONTRIBUTING.md
+[2]: https://github.com/spree-contrib/spree_static_content/blob/3-0-stable/CONTRIBUTING.md
 [3]: https://github.com/spree-contrib/spree_static_content/issues
 [4]: https://github.com/peterberkenbosch
 [5]: https://github.com/spree-contrib/spree_static_content/graphs/contributors
-[6]: https://github.com/spree-contrib/spree_static_content/blob/master/LICENSE.md
+[6]: https://github.com/spree-contrib/spree_static_content/blob/3-0-stable/LICENSE.md
