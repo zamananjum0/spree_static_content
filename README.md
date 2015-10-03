@@ -60,8 +60,6 @@ bundle && bundle exec rails g spree_static_content:install
 
 That's all!
 
-**NOTE: Check [Versionfile][1] for corresponding gem `branch` for your Spree version.**
-
 ---
 
 ## Contributing
@@ -72,7 +70,6 @@ See corresponding [guidelines][2]
 
 Copyright (c) 2008-2015 [Peter Berkenbosch][4] and [contributors][5], released under the [New BSD License][6]
 
-[1]: https://github.com/spree-contrib/spree_static_content/blob/master/Versionfile
 [2]: https://github.com/spree-contrib/spree_static_content/blob/master/CONTRIBUTING.md
 [3]: https://github.com/spree-contrib/spree_static_content/issues
 [4]: https://github.com/peterberkenbosch
