@@ -78,4 +78,4 @@ And in case we didn't emphasize it enough: **we love tests!**
 
 [1]: http://www.fsf.org/licensing/essays/free-sw.html
 [2]: https://github.com/spree-contrib/spree_static_content/issues
-[3]: https://github.com/spree-contrib/spree_static_content/3-0-stable/master/config/locales
+[3]: https://github.com/spree-contrib/spree_static_content/tree/3-0-stable/config/locales
