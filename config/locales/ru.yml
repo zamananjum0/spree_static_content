@@ -11,7 +11,6 @@ ru:
         meta_title: "Мета заголовок"
         position: Позиция в меню
         render_layout_as_partial: Использовать макет как шаблон страниц
-        show_in_footer: "Отображать в нижнем меню"
         show_in_header: "Отображать в верхнем меню"
         show_in_sidebar: "Отображать в боковом меню"
         slug: "Постоянная ссылка"

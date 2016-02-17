@@ -28,7 +28,7 @@ RSpec.describe Spree::StaticContentController, type: :controller do
     end
 
     it 'respond with a 404 when no page exists' do
-      spree_get :show
+      spree_get :show, format: :json
       expect(response.response_code).to be(404)
     end
   end

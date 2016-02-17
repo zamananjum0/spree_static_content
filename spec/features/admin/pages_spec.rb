@@ -22,7 +22,6 @@ RSpec.feature 'Admin Static Content', :js do
 
       check 'page_show_in_sidebar'
       check 'page_show_in_header'
-      check 'page_show_in_footer'
 
       expect(find('#page_visible')).to be_checked
 
