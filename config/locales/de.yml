@@ -10,9 +10,9 @@ de:
         meta_keywords: Meta-Schlüsselwörter
         meta_title: Meta-Titel
         position: Position
-        render_layout_as_partial: "Rendern Layout als partielle"
-        show_in_footer: "Im Fußzeile anzeigen"
-        show_in_header: "Im Kopfzeile anzeigen"
+        render_layout_as_partial: "Layout als Partial rendern"
+        show_in_footer: "In der Fußzeile anzeigen"
+        show_in_header: "In der Kopfzeile anzeigen"
         show_in_sidebar: "In der Seitenleiste anzeigen"
         slug: Pfad
         title: Titel
