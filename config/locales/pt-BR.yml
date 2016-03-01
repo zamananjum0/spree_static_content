@@ -11,7 +11,6 @@ pt-BR:
         meta_title: "Meta Título"
         position: Posição
         render_layout_as_partial: "Renderização layout como parcial"
-        show_in_footer: "Mostrar no rodapé"
         show_in_header: "Mostrar no cabeçalho"
         show_in_sidebar: "Mostrar na barra lateral"
         slug: Slug

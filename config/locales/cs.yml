@@ -11,7 +11,6 @@ cs:
         meta_title: "Meta nadpis"
         position: Pozice
         render_layout_as_partial: "Zobrazit vzhled jako partial"
-        show_in_footer: "Zobrazit v patičce"
         show_in_header: "Zobrazit v hlavičce"
         show_in_sidebar: "Zobrazit v bočním panelu"
         slug: Slug
