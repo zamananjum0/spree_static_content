@@ -31,5 +31,14 @@ RSpec.describe Spree::StaticContentController, type: :controller do
       spree_get :show
       expect(response.response_code).to be(404)
     end
+
+    it 'activates Spree::PromotionHandler::Page handler' do
+      page = create(:page, slug: 'promo', stores: [store])
+      current_order = double(:order)
+      allow(controller).to receive(:current_order).and_return(current_order)
+      allow(controller.request).to receive(:path).and_return(page.slug)
+      expect(Spree::PromotionHandler::Page).to receive(:new).with(current_order, page.slug).and_return(double(:handler, activate: true))
+      spree_get :show, path: page.slug
+    end
   end
 end
