@@ -1,9 +1,10 @@
 RSpec.describe Spree::StaticContentController, type: :controller do
+  let!(:store) { create(:store, default: true) }
+
   before do
     allow(controller).to receive(:spree_current_user).and_return(nil)
+    allow(controller).to receive(:current_store).and_return(store)
   end
-
-  let!(:store) { create(:store, default: true) }
 
   context '#show' do
     it 'accepts path as root' do
