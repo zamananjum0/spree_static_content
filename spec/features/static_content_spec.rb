@@ -2,6 +2,8 @@ RSpec.feature 'Static Content Page', :js do
   let!(:store) { create(:store, default: true) }
 
   context 'render page' do
+    before { allow(Spree::PromotionHandler::Page).to receive(:new).and_return(double(:handler, activate: true)) }
+
     scenario 'is a query string' do
       create(:page, slug: '/page', title: 'Query Test', stores: [store])
       visit '/page?test'
