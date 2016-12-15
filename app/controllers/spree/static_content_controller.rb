@@ -1,7 +1,6 @@
 module Spree
   class StaticContentController < StoreController
     rescue_from ActiveRecord::RecordNotFound, with: :render_404
-    after_action :fire_visited_path, only: :show
 
     helper 'spree/products'
     layout :determine_layout
@@ -19,10 +18,6 @@ module Spree
 
     def accurate_title
       @page ? (@page.meta_title.present? ? @page.meta_title : @page.title) : nil
-    end
-
-    def fire_visited_path
-      Spree::PromotionHandler::Page.new(current_order, params[:path]).activate
     end
   end
 end
