@@ -3,6 +3,7 @@ require 'spree_static_content/engine'
 require 'spree_static_content/version'
 require 'coffee_script'
 require 'sass/rails'
+require 'spree_extension'
 
 module StaticPage
   module_function

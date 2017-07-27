@@ -1,4 +1,4 @@
-class AddVisibleToPages < ActiveRecord::Migration
+class AddVisibleToPages < SpreeExtension::Migration[4.2]
   class Page < ActiveRecord::Base
   end
 

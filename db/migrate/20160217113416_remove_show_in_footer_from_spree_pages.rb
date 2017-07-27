@@ -1,4 +1,4 @@
-class RemoveShowInFooterFromSpreePages < ActiveRecord::Migration
+class RemoveShowInFooterFromSpreePages < SpreeExtension::Migration[4.2]
   def self.up
     remove_column :spree_pages, :show_in_footer
   end
