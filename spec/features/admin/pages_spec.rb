@@ -1,5 +1,6 @@
 RSpec.feature 'Admin Static Content', :js do
   stub_authorization!
+  let!(:store) { create(:store, default: true) }
 
   context 'when no page exists' do
     background do
