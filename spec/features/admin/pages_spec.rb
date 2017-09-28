@@ -1,5 +1,6 @@
 RSpec.feature 'Admin Static Content', :js do
   stub_authorization!
+  let!(:store) { create(:store, default: true) }
 
   context 'when no page exists' do
     background do
@@ -22,6 +23,7 @@ RSpec.feature 'Admin Static Content', :js do
 
       check 'page_show_in_sidebar'
       check 'page_show_in_header'
+      check 'page_show_in_footer'
 
       expect(find('#page_visible')).to be_checked
 
