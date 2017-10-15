@@ -1,7 +1,7 @@
 module Spree
   module Admin
     class PagesController < ResourceController
-      def translates
+      def translate
         page = Spree::Page.find(params[:id])
         page.update update_page_attribute
         redirect_to spree.admin_pages_path
