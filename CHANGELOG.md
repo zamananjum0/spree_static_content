@@ -1,3 +1,3 @@
 # Changelog
 
-#### 3.0.0.beta
+#### 3.4.0.beta

@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
   s.description = s.summary
   s.required_ruby_version = '>= 2.1.0'
 
-  s.authors      = ['Peter Berkenbosch', 'Roman Smirnov']
-  s.email        = 'peter@pero-ict.nl'
-  s.homepage     = 'https://github.com/spree-contrib/spree_static_content'
+  s.authors      = ['zaman']
+  s.email        = 'anjum.zaman808@gmail.com'
+  s.homepage     = 'https://github.com/zamananjum0/spree_static_content'
   s.license      = 'BSD-3'
 
   s.files        = `git ls-files`.split("\n")
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 3.1.0', '< 4.0'
+  s.add_dependency 'spree_core', '>= 3.4.0', '< 4.0'
   s.add_dependency 'spree_extension'
 
   s.add_development_dependency 'capybara'
@@ -38,7 +38,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry-rails'
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'pg'
-  s.add_development_dependency 'mysql2'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'appraisal'
 end

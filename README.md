@@ -48,7 +48,7 @@ Finally, toggle the visibility using the 'Visible' checkbox. If it is unchecked,
 
 1. Add this extension to your Gemfile with this line:
 
-  #### Spree >= 3.1
+  #### Spree >= 3.4.0
 
   ```ruby
   gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
